@@ -1,0 +1,10 @@
+{
+  "name": "ip-tracker",
+  "version": "1.0.0",
+  "description": "ip tracker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samriddha",
+  "license": "MIT"
+}

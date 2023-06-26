@@ -9,9 +9,8 @@ window.onload = function(e) {
 
 btn.addEventListener('click', function(e){
     let search = document.querySelector('#search').value;
-    searchIP(search+'/');
+    searchIP(search.trim()+'/');
 })
-
 
 
 
@@ -40,7 +39,7 @@ function searchIP (search){
     `
     <div>
                 <span>IP ADDRESS</span>
-                <p>${data.ip}</p>
+                <p ${data.ip.length>15 ? `style="font-size: 75%"`: ``} >${data.ip}</p>
 
             </div>
             <div>
